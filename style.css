@@ -1,0 +1,33 @@
+.loader {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid #f3f3f3;
+    border-top: 15px solid orange;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite ;
+    animation-direction: normal;
+    animation-delay: .2s;
+    margin: 0 auto;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #image{
+    display: flex;
+    justify-content: center;
+    width:  100%;
+    margin-top: 100px;
+  }
+  #img{
+    height: 250px;
+  }
